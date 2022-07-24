@@ -12,6 +12,7 @@ app.get("/",(req,res)=>{
 })
 
 
+
 app.post("/product",async(req,res)=>{
     let url= req.body.url;
     console.log(url);

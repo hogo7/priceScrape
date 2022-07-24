@@ -17,7 +17,7 @@ app.post("/product",async(req,res)=>{
     let url= req.body.url;
     console.log(url);
 
-    await grab.get_product(url).then((data)=>{res.send(data)});
+    await grab.get_product(url).then((data)=>{res.json(data)});
 })
 
 

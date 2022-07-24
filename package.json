@@ -1,0 +1,20 @@
+{
+  "name": "trob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./server.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "*.2.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "promise": "*.1.0",
+    "puppeteer": "^15.4.2",
+    "redis": "^4.2.0"
+  }
+}
